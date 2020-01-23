@@ -1,0 +1,33 @@
+{
+  "name": "ampweebhook",
+  "version": "1.0.0",
+  "description": "Azure Marketplace Webhook Tester CLI",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "ginit": "./index.js"
+  },
+  "keywords": [
+    "CLI",
+    "Azure",
+    "Marketplace",
+    "Testing"
+  ],
+  "author": "code4clouds",
+  "license": "MIT",
+  "dependencies": {
+    "@octokit/rest": "^16.33.0",
+    "chalk": "^2.4.2",
+    "clear": "^0.1.0",
+    "clui": "^0.3.6",
+    "configstore": "^5.0.0",
+    "figlet": "^1.2.4",
+    "inquirer": "^7.0.0",
+    "lodash": "^4.17.15",
+    "minimist": "^1.2.0",
+    "simple-git": "^1.126.0",
+    "touch": "^3.1.0"
+  }
+}

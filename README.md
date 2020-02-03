@@ -1,5 +1,7 @@
 # ampwebhook
 
+![logo](https://sdtimes.com/wp-content/uploads/2017/11/azure-marketplace.jpg) "Azure Marketplace Shopping Bag"
+
 This is a command line to help Azure Marketplace Publishers test the Webhook API endpoints.  Information about the webhook implementation can be found [here](https://docs.microsoft.com/en-us/azure/marketplace/partner-center-portal/pc-saas-fulfillment-api-v2#implementing-a-webhook-on-the-saas-service).
 
 ## Installation

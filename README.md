@@ -5,7 +5,7 @@ This is a command line to help Azure Marketplace Publishers test the Webhook API
 ## Installation
 
 ``` bash
-# npm install -g ampwebhook
+# npm install -g ampsaaswebhook
 # ampwebhook
 ```
 

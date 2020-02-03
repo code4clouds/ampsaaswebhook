@@ -2,13 +2,13 @@
   "name": "ampsaaswebhook",
   "version": "1.0.1",
   "description": "Azure Marketplace Webhook Tester CLI",
-  "main": "app.js",
+  "main": "./src/app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "node tests/server.js"
   },
   "bin": {
-    "ampsaaswebhook": "./app.js"
+    "ampsaaswebhook": "./src/app.js"
   },
   "keywords": [
     "CLI",

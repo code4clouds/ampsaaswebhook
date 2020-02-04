@@ -105,7 +105,6 @@ npm run-script server
 
 ``` bash
 npm version 1.0.x
-npm runscript postversion
 npm publish
 ```
 

@@ -1,4 +1,6 @@
+//
 // Azure Marketplace Webhook Testing CLI
+//
 
 const clear = require('clear')
 const chalk = require('chalk')

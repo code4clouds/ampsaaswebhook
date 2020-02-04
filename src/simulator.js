@@ -3,7 +3,7 @@ const uuidv4 = require('uuid/v4') // random uud
 
 module.exports = {
     PostMessage: (info) => {
-        const message =
+        const data =
         {
             "id": uuidv4(),
             "activityId": info.activityId,
@@ -16,7 +16,19 @@ module.exports = {
             "action": info.activityId,
             "status": info.status
         }
-        request.post(info.webhookURL, message, function (err, res, body) {
+
+        const options = {
+            url: info.webhookURL,
+            path: '/',
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+              'Content-Length': data.length
+            },
+            json: data
+          }
+
+        request.post(options, function (err, res, body) {
             if (err) {
                 console.log('Error sending webhook message.' + err);
             }

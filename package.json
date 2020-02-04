@@ -13,7 +13,7 @@
     "url": "git+https://github.com/code4clouds/ampsaaswebhook.git"
   },
   "bin": {
-    "ampsaaswebhook": "./src/app.js"
+    "ampsaaswebhook": "./app.js"
   },
   "keywords": [
     "CLI",

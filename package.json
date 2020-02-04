@@ -2,10 +2,15 @@
   "name": "ampsaaswebhook",
   "version": "1.0.3",
   "description": "Azure Marketplace Webhook Tester CLI",
-  "main": "./src/app.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "server": "node tests/server.js"
+    "server": "node tests/server.js",
+    "postversion": "git push --follow-tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/code4clouds/ampsaaswebhook.git"
   },
   "bin": {
     "ampsaaswebhook": "./src/app.js"

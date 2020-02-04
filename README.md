@@ -57,8 +57,7 @@ lhost:8080
 ? Publishe ID 3ed62258-1a5e-4628-815b-79f149cdd3ab
 ? Offer ID 603f4b0d-6994-4664-ac37-dc504ffb560e
 ? Plan ID 16d1d649-b3b4-4579-9655-89e36d7079c8
-? The number of seats, will be null if not per-seat sa
-as offer 
+? The number of seats, will be null if not per-seat saas offer 
 ? Webhook simulated action Unsubscribe
 ? Webhook simulated status NotStarted
 ? Send webhook payload to the endpoint Yes            {

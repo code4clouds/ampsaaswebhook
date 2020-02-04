@@ -1,6 +1,6 @@
 {
   "name": "ampsaaswebhook",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Azure Marketplace Webhook Tester CLI",
   "homepage": "https://github.com/code4clouds/ampsaaswebhook",
   "bugs": {

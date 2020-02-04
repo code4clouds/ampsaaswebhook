@@ -106,5 +106,3 @@ npm run-script server
 npm version 1.0.x
 npm publish
 ```
-
-The postversion will run git push to a tag.

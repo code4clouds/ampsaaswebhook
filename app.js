@@ -1,15 +1,15 @@
 // Azure Marketplace Webhook Testing CLI
 
-const chalk = require('chalk')
 const clear = require('clear')
+const chalk = require('chalk')
 const figlet = require('figlet')
 
 const inquirer = require('./src/inquirer')
-const simulator = require('./src/simulator');
+const simulator = require('./src/simulator')
 
-clear();
+clear(); // clear the screen
 
-console.log(chalk.blue(figlet.textSync('AMP Webhook CLI')));
+console.log(chalk.blue(figlet.textSync('AMP Webhook CLI'))); // print the AMP banner
 
 const run = async () => {
     let confirm = 'no';

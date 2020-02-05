@@ -3,7 +3,7 @@
 ![Azure Marketplace Shopping Bag](./images/amptotebag.jpg)
 
 
-This is a command line to help Azure Marketplace Publishers test the Webhook API endpoints.  Information about the webhook implementation can be found [here](https://docs.microsoft.com/en-us/azure/marketplace/partner-center-portal/pc-saas-fulfillment-api-v2#implementing-a-webhook-on-the-saas-service).
+This is a command line to help Azure Marketplace Publishers test the Azure Marketplace Webhook API endpoints.  Information about the webhook implementation can be found [here](https://docs.microsoft.com/en-us/azure/marketplace/partner-center-portal/pc-saas-fulfillment-api-v2#implementing-a-webhook-on-the-saas-service).
 
 ## Sample AMP Payload
 
@@ -90,7 +90,7 @@ lhost:8080
 statusCode: 200
 ```
 
-## Development
+## Tool Development and Testing
 
 I am using the VS Code container development experience.  There is .dev container that has the tools and dependencies installed to facilitate development.  You can download it [here](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) and use the .devcontainer folder to open the container environment.
 
@@ -100,7 +100,7 @@ The test server can be run using the following:
 npm run-script server
 ```
 
-## Publishing
+## Tool Publishing to NPM
 
 ``` bash
 npm version 1.0.x

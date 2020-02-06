@@ -22,6 +22,10 @@ This is a command line to help Azure Marketplace Publishers test the Azure Marke
 }
 ```
 
+## Requirement
+
+- [NodeJS](https://nodejs.org/)
+
 ## Installation
 
 Use the following command to install the tool from the Node Package Management Service
@@ -32,7 +36,7 @@ Use the following command to install the tool from the Node Package Management S
 
 ## Execution
 
-Once instaled the following command will start the cli.
+Once installed the following command will start the cli.
 
 ``` bash
 # ampwebhook

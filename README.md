@@ -39,7 +39,7 @@ Use the following command to install the tool from the Node Package Management S
 Once installed the following command will start the cli.
 
 ``` bash
-# ampwebhook
+# ampsaaswebhook
 ```
 
 ## Sample run

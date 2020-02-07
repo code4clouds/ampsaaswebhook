@@ -1,11 +1,11 @@
 # ampsaaswebhook
 
-![Azure Marketplace Shopping Bag](./images/amptotebag.jpg)
+![Azure Marketplace Shopping Bag Image](./images/amptotebag.jpg)
 
 
 This is a command line to help Azure Marketplace Publishers test the Azure Marketplace Webhook API endpoints.  Information about the webhook implementation can be found [here](https://docs.microsoft.com/en-us/azure/marketplace/partner-center-portal/pc-saas-fulfillment-api-v2#implementing-a-webhook-on-the-saas-service).
 
-![Azure Marketplace Shopping Bag](./images/screenshot.png)
+![CLI Screenshot Image](./images/screenshot.png)
 
 ## Sample AMP Payload
 

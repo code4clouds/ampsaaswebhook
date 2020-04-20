@@ -54,6 +54,13 @@ The test server can be run using the following:
 npm run-script server
 ```
 
+on a second terminal you can run the following npm cli:
+
+``` bash
+npm start
+```
+
+
 ## Tool Publishing to NPM
 
 ``` bash

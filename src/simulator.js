@@ -12,8 +12,8 @@ module.exports = {
             "offerId": info.offerId,
             "planId": info.planId,
             "quantity": info.quantity,
-            "timeStamp": Date.now.toString(),
-            "action": info.activityId,
+            "timeStamp": new Date().toISOString(),
+            "action": info.action,
             "status": info.status
         }
 

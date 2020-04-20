@@ -13,7 +13,7 @@ module.exports = {
             "planId": info.planId,
             "quantity": info.quantity,
             "timeStamp": new Date().toISOString(),
-            "action": info.activityId,
+            "action": info.action,
             "status": info.status
         }
 

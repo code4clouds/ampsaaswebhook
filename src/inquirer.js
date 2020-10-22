@@ -31,7 +31,7 @@ module.exports = {
             {
                 name: 'publisherId',
                 type: 'input',
-                message: 'Publishe ID',
+                message: 'Publisher ID',
                 default: uuidv4(),
             },
             {
